@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: eureka-server 
+
+server:
+  port: 8081
+  
+
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    service-url:
+    ##集群配置，互为子节点
+      defaultZone: http://peer2:8082/eureka/,http://peer3:8083/eureka/
