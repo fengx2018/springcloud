@@ -5,7 +5,7 @@
   <groupId>com.sun</groupId>
   <artifactId>springcloud</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>pom</packaging>
+  <packaging>jar</packaging>
 
   <name>springcloud</name>
   <url>http://maven.apache.org</url>
